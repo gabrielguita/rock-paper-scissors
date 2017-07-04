@@ -1,0 +1,64 @@
+body {
+    background-color: #34495e;
+}
+.cover {
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+    height: 500px;
+    display: none;
+}
+.container .imgPicks{
+       text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+    height: 500px;
+}
+.computer-picks,
+.player-picks{
+    
+}
+
+.title{
+    background: #184ab9;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.content{
+    margin-top: 150px;
+}
+
+.player-picks{
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+.player-picks img,
+.computer-picks img{
+    max-width: 500px;
+    margin: 0 auto;
+    display: inline-block;
+
+}
+.player{
+    color: green;
+}
+
+.content-box{
+    position: absolute;
+    width: 100%;
+    bottom: 90px;
+}
+
+.computer{
+    color: red;
+}
+
+.footer{
+        position: absolute;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,29 @@
+{
+  "name": "rock-paper-scissors",
+  "version": "0.0.1",
+  "authors": [
+    "gabriel guita <ionut.guita@gmail.nl>"
+  ],
+  "description": "rockpaperscissors",
+  "main": "dist/RockPaperScissors.js",
+  "moduleType": [
+    "amd",
+    "globals"
+  ],
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "doc",
+    "js",
+    "Gruntfile.js",
+    "package.json",
+    ".bowerrc",
+    ".gitignore",
+    ".jshintignore",
+    ".jshintrc"
+  ],
+  "dependencies": {}
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	<link rel="stylesheet" href="../style.css">
+    	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
+        <script data-main="app" src="lib/require.js"></script>
+		<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js'></script>
+		<script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js'></script>
+    </head>
+    <body>
+	<div class="title">
+		<h3 class="text-center">
+		  <h2>Rock * Paper * Scissors</h2>
+		</h3>
+	</div>
+
+
+<div class="content">
+	<div class="cover">
+    <div class="player-picks">
+      <img src="http://www.clker.com/cliparts/4/d/e/3/1293654397145462909rock.png" alt="rock" class="player-rock choice">
+      <img src="http://www.clker.com/cliparts/c/f/e/1/1293654374302559893paper.png" alt="" class="player-paper choice">
+      <img src="http://www.clker.com/cliparts/d/4/5/7/1293654411556958137scissors.png" alt="" class="player-scissors choice">
+    </div>
+    <div class="computer-picks">
+      <img src="http://www.clker.com/cliparts/4/d/e/3/1293654397145462909rock.png" alt="rock" class="computer-rock choice">
+      <img src="http://www.clker.com/cliparts/c/f/e/1/1293654374302559893paper.png" alt="" class="computer-paper choice">
+      <img src="http://www.clker.com/cliparts/d/4/5/7/1293654411556958137scissors.png" alt="" class="computer-scissors choice">
+    </div>
+  </div>
+</div>
+
+
+  <div id="js-newGameElement" class="container">
+    <div class="row text-center">
+      <button id="js-newGameButton" class="btn btn-default">New Game</button>
+      <div class="logo">
+        <img src="http://static1.squarespace.com/static/55c4c443e4b0f8bc41c66fb5/55c89fbce4b08007be92a00c/56279798e4b016a0d78ee93a/1446741381638/?format=1000w">
+      </div>
+    </div>
+  </div>
+
+
+  <div id="js-playerPickElement" class="footer">
+    <div class="row text-center">
+      <button id="js-playerPick_rock" class="btn pick-btn">
+        <span class="badge pick-badge">
+          <i class="fa fa-hand-rock-o" aria-hidden="true"></i>
+        </span>
+        Rock
+      </button>
+      <button id="js-playerPick_paper" class="btn pick-btn">
+        <span class="badge pick-badge">
+          <i class="fa fa-hand-paper-o" aria-hidden="true"></i>
+        </span>
+        Paper
+      </button>
+      <button id="js-playerPick_scissors" class="btn pick-btn">
+        <span class="badge pick-badge">
+          <i class="fa fa-hand-scissors-o" aria-hidden="true"></i>
+        </span>
+        Scissors
+      </button>
+    </div>
+  </div>
+
+  <div id="js-resultsTableElement" class="content-box">
+    <div class="row">
+      <div class="col-xs-5 text-center">
+        <span id="js-playerName" class="player">
+          Player Name
+        </span>
+        <span id="js-playerPoints" class="badge player-badge">
+          0
+        </span>
+      </div>
+      <div class="col-xs-2 text-center">
+        VS.
+      </div>
+      <div class="col-xs-5 text-center">
+        <span id="js-computerPoints" class="badge computer-badge">
+          0
+        </span>
+        <span class="computer">
+          Computer
+        </span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-5 text-center">
+        <span id="js-playerPick" class="player">
+          Player Pick
+        </span>
+      </div>
+      <div class="col-xs-2"></div>
+      <div class="col-xs-5 text-center">
+        <span id="js-computerPick" class="computer">
+          Computer Pick
+        </span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-5 text-center">
+        <span id="js-playerResult" class="player">
+          Player Score
+        </span>
+      </div>
+      <div class="col-xs-2"></div>
+      <div class="col-xs-5 text-center">
+        <span id="js-computerResult" class="computer">
+          Computer Score
+        </span>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+    </body>
+</html>

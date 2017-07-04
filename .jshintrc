@@ -1,0 +1,42 @@
+{
+	"globals": {
+		"define": true,
+		"require": true,
+		"requirejs": true,
+		"describe": true,
+		"beforeEach": true,
+		"module": true,
+		"angular": true,
+		"jasmine": true,
+		"inject": true,
+		"it": true,
+		"expect": true,
+		"spyOn": true,
+		"xit": true,
+		"xdescribe": true,
+		"protractor": true,
+		"global": true
+	},
+	"bitwise": true,
+	"curly": true,
+	"eqeqeq": true,
+	"forin": true,
+	"latedef": true,
+	"noarg": true,
+	"noempty": true,
+	"nonew": true,
+	"undef": true,
+	"strict": true,
+	"quotmark": "single",
+	"browser": true,
+	"jquery": true,
+	"onevar": false,
+    "module": true,
+
+    "esnext": true,
+
+    "maxparams": 7,
+    "maxdepth": 4,
+    "maxstatements": 20,
+    "maxcomplexity": 7
+}
